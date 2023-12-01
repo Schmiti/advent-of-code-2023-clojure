@@ -2,7 +2,7 @@
   (:require [clojure.java.io :as io]
             [aoc-2023.day1]))
 
-(defn- read-input [file-name]
+(defn read-input [file-name]
   (slurp (io/resource file-name)))
 
 (defn -main
