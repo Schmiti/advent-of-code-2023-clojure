@@ -2,7 +2,8 @@
   (:require [clojure.java.io :as io]
             [aoc-2023.day1]
             [aoc-2023.day2]
-            [aoc-2023.day3]))
+            [aoc-2023.day3]
+            [aoc-2023.day4]))
 
 (defn read-input [file-name]
   (slurp (io/resource file-name)))
@@ -18,4 +19,6 @@
     "d02.p1" (println (aoc-2023.day2/part1 (read-input "day2.txt")))
     "d02.p2" (println (aoc-2023.day2/part2 (read-input "day2.txt")))
     "d03.p1" (println (aoc-2023.day3/part1 (read-input "day3.txt")))
-    "d03.p2" (println (aoc-2023.day3/part2 (read-input "day3.txt")))))
+    "d03.p2" (println (aoc-2023.day3/part2 (read-input "day3.txt")))
+    "d04.p1" (println (aoc-2023.day4/part1 (read-input "day4.txt")))
+    "d04.p2" (println (aoc-2023.day4/part2 (read-input "day4.txt")))))
